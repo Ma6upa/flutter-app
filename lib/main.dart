@@ -13,10 +13,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Appbar'),
+          title: const Text('Appbar'),
         ),
-        body: Text('Body'),
-        bottomNavigationBar: BottomNavigationBar(items: [
+        body: const Text('Body'),
+        bottomNavigationBar: BottomNavigationBar(items: const [
           BottomNavigationBarItem(
             label: 'Home',
             icon: Icon(Icons.home)
