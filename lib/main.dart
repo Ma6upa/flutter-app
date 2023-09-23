@@ -14,7 +14,18 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Appbar'),
-        )
+        ),
+        body: Text('Body'),
+        bottomNavigationBar: BottomNavigationBar(items: [
+          BottomNavigationBarItem(
+            label: 'Home',
+            icon: Icon(Icons.home)
+          ),
+          BottomNavigationBarItem(
+            label: 'Settings',
+            icon: Icon(Icons.settings)
+          )
+        ]),
       ),
     );
   }
